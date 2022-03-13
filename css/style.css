@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    font-weight: bold;
+}
+.box-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 500px;
+    height: 350px;
+}
+
+h1 {
+    margin: 0 auto;
+    width: 450px;
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 40px;
+}
+
+.box {
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+    z-index: 1;
+}
+
+.yellow {
+    background: yellow;
+    z-index: 1;
+}
+
+
+.text-green {
+    color: green
+}
+
+nav {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    z-index: 2;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+
